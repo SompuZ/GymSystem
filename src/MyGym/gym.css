@@ -1,0 +1,235 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(5, 128, 235);
+    font-family: The Nautigal;
+
+}
+.calculate{
+    font-weight: 900;
+    text-align: center;
+    justify-content: center;
+    color: rgb(30, 172, 153);
+    font-weight: 900;
+}
+/*********************navbar***************************/
+.navbar {
+    background: #131313;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 900;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#navbar__logo {
+    background: #ee0979;
+    background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'Akaya Kanadaka', cursive;
+    text-shadow: yellowgreen;
+}
+
+#navbar__logo:hover {
+    transition: all 0.3s ease;
+    background: linear-gradient(to right, #e7dc78, #e78a5e);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav__item {
+    height: 80px;
+}
+
+.navbar__links {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    text-decoration: none;
+    height: 100%;
+    transition: all 0.3s ease;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+.navbar__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px 10px 10px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #FF5F6D;
+    background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);
+    background: linear-gradient(to right, #FFC371, #fa7d17);
+    color: azure;
+    transition: all 0.1s ease;
+}
+
+.navbar__links:hover {
+    transition: all 0.1s ease;
+    background: linear-gradient(to right, #e7dc78, #e78a5e);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+/* @media screen and (max-width:1000px) {
+    .navbar__container {
+        display: flex;
+        justify-content: space-between;
+        height: 90px;
+        z-index: 1;
+        width: 100%;
+        max-width: 1500px;
+        padding: 0;
+    }
+    .navbar__menu {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0;
+        width: 100%;
+        position: absolute;
+        top: -1500px;
+        opacity: 1;
+        transition: all 0.3s ease;
+        z-index: -1;
+        padding: 0;
+    }
+    .navbar__menu.active {
+        background: #000000;
+        top: 100%;
+        opacity: 1;
+        transition: all 0.3s ease;
+        z-index: 60;
+        height: 65vh;
+        font-size: 1.4rem;
+    }
+    #navbar__logo {
+        padding-left: 25px;
+    }
+    .navbar__toggle .bar {
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        transition: all 0.1s ease-in-out;
+        background: whitesmoke;
+    }
+    .navbar__item {
+        width: 100%;
+        height: 100%
+    }
+    .navbar__links {
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+        height: 25%;
+    }
+    .navbar__btn {
+        padding: 2rem;
+    }
+    .button {
+        height: 40px;
+        justify-content: center;
+        width: 70vw;
+        align-items: center;
+        display: flex;
+        margin: 0%;
+        padding: 0%;
+    } */
+    
+
+/*********************body*************************************/
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(253, 255, 253);
+    font-family: The Nautigal;
+}
+
+.formg-att{
+    text-align: center;
+    display: block;
+    width: 230px;
+    padding: 6px;
+    border: 2px;
+    margin: 4px auto;
+    font-size: large;
+    border-radius:20px;
+
+}
+.f-btn{
+    position:absolute;
+}
+.container{
+    border: 2px solid blue;
+    margin: 161px 272px;
+    padding: 75px;
+    width: 50%;
+    border-radius: 55px;
+    
+}
+.container h1{
+    text-align: center;
+}
+.f-btn{
+    display: block;
+    width: 20%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+   
+}
+/*********************************************************/
